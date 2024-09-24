@@ -2,7 +2,7 @@
 module.exports = {
     network:'WanchainTestnet',
     "Wanchain":{
-      url: "https://gwan-ssl.wandevs.org:56891",
+	    url: "http://127.0.0.1:26891",
       networkId:888,
       chainId: 1,
       multicallAddr: "0xCBE1597E09259e61680A1474850e7fd3E30Ace49",  
