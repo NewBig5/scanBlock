@@ -17,6 +17,14 @@ async function main(){
     let fromBlockNumber =  11284537
     let toAddr = '0x1E7450D5d17338a348C5438546f0b4D0A5fbeaB6'
 
+
+	let b1 = await web3.eth.getBalance('0x1E7450D5d17338a348C5438546f0b4D0A5fbeaB6', 34784634)
+	console.log("b1:", b1)
+	b1 = await web3.eth.getBalance('0x1E7450D5d17338a348C5438546f0b4D0A5fbeaB6', 34784635)
+	console.log("b1-2:", b1)
+
+	return
+
     while(true) {
         let blockPS = []
         let blocks = []
